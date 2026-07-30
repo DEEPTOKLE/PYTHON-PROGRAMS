@@ -1,0 +1,17 @@
+a = 10
+print("Original value of a:", a)
+print("ID of a:", id(a))
+
+a = a + 5
+print("New value of a:", a)
+print("New ID of a:", id(a))
+
+print()
+
+lst = [10, 20, 30]
+print("Original list:", lst)
+print("ID of list:", id(lst))
+
+lst.append(40)
+print("Updated list:", lst)
+print("ID of list after update:", id(lst))

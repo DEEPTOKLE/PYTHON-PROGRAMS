@@ -1,0 +1,22 @@
+text = "hello world"
+
+print(text)
+print(text[0:5])
+print(text[-5:])
+print(text[::-1])
+
+print(text.upper())
+print(text.lower())
+print(text.capitalize())
+print(text.title())
+print(text.strip())
+print(text.replace("world", "python"))
+print(text.find("o"))
+print(text.count("l"))
+print(len(text))
+print(text.split())
+print("-".join(["a","b","c"]))
+print(text.startswith("hello"))
+print(text.endswith("world"))
+print(text.isalpha())
+print("12345".isdigit())

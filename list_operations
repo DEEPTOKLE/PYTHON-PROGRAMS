@@ -1,0 +1,19 @@
+num = [10, 20, 30, 40, 50]
+
+print(num)
+print(num[0])
+print(num[-1])
+print(num[1:4])
+print(num[::-1])
+
+num[2] = 35
+print(num)
+
+num.append(60)
+print(num)
+
+num.remove(20)
+print(num)
+
+num2 = [x * 2 for x in num]
+print(num2)

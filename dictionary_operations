@@ -1,0 +1,10 @@
+info = {"name": "satish", "age": 100, "city": "goa"}
+
+print(info)
+print(info["name"]) 
+print(info.get("age"))
+
+info["course"] = "bca"
+print(info)
+
+print(info["name"]["city"])

@@ -1,0 +1,18 @@
+def add(a, b):
+    print("Sum =", a + b)
+
+def greet(name="Student"):
+    print("Hello", name)
+
+def total(*num):
+    print("Total =", sum(num))
+
+def details(**info):
+    print("Name:", info["name"])
+    print("Age:", info["age"])
+
+add(10, 20)
+greet()
+greet("Satish")
+total(10, 20, 30, 40)
+details(name="Satish", age=20)
